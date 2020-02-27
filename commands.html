@@ -12,7 +12,8 @@
   <body>
     <form class="box" action="index.html" method="post">
       <h1>Entros</h1>
-      <p1>List available commands</p1>
+      <p1>List available commands</p1><br>
+      <p1 id="commands"></p1>>
       <input id="back" type="button" name="" value="Back">
     </form>
   </body>
@@ -20,5 +21,7 @@
     document.getElementById("back").onclick = function() {
       location.href = "index.html";
     }
+
+    document.getElementById("commands").innerHTML = "Failed to load commands from Entros API: Service not online"
   </script>
 </html>
