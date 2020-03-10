@@ -1,0 +1,21 @@
+User-agent: DuckDuckBot
+Disallow: /admin/
+Disallow: /clients/
+Disallow: /voicephp/
+Disallow: /downloads/
+Disallow: /nonsvn/
+Disallow: /pt/
+Disallow: /tr/
+Disallow: /pl/
+Disallow: /id/
+Disallow: /cs/
+Disallow: /sk/
+Disallow: /vi/
+Disallow: /it/
+Disallow: /es/
+Disallow: /webview/
+Disallow: /mydashboard
+Allow: /
+
+User-agent: *
+Disallow: /
